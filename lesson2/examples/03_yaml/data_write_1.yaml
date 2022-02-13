@@ -1,0 +1,12 @@
+action:
+- msg_1
+- msg_2
+- msg_3
+to:
+- account_1
+- account_2
+- account_3
+names: !!set
+  1: null
+  2: null
+  3: null

@@ -1,0 +1,12 @@
+action:
+- msg_1
+- msg_2
+- msg_3
+names: !!set
+  1: null
+  2: null
+  3: null
+to:
+- "\u0418\u0432\u0430\u043D\u043E\u0432"
+- "\u041F\u0435\u0442\u0440\u043E\u0432"
+- "\u0421\u0438\u0434\u043E\u0440\u043E\u0432"

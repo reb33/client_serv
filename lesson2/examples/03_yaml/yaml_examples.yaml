@@ -1,0 +1,47 @@
+# List located in a line
+['action', 'to', 'from', 'encoding', 'message']
+
+# List located in a block
+- action
+- to
+- from
+- encoding
+- message
+
+# =======================================================
+# Dictionary located in a line
+{'action': 'msg', 'to': 'account_name'}
+
+# Dictionary located in a block
+'action': 'msg'
+'to': 'account_name'
+
+# =======================================================
+# Set located in a line
+names: !!set {1: null, 2: null, 3: null}
+
+# Set located in a block
+names: !!set
+  1: null
+  2: null
+  3: null
+
+
+# =======================================================
+# Dictionary with elements of different types located in a line
+{action: [msg_1, msg_2, msg_3], names: !!set {1: null, 2: null, 3: null}, to: [account_1,
+    account_2, account_3]}
+
+# Dictionary with elements of different types located in a block
+action:
+- msg_1
+- msg_2
+- msg_3
+names: !!set
+  1: null
+  2: null
+  3: null
+to:
+- account_1
+- account_2
+- account_3
