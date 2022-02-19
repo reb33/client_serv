@@ -5,13 +5,12 @@
 # получить ответ сервера; разобрать сообщение сервера;
 # параметры командной строки скрипта client.py []:
 # addr — ip-адрес сервера; port — tcp-порт на сервере, по умолчанию 7777.
-import os
 from datetime import datetime
 from socket import socket, AF_INET, SOCK_STREAM
 from sys import argv
 
-from lesson3.homework.app.utils import check_port, receive_message, send_message, print_message
-from lesson3.homework.app.variables import DEFAULT_PORT
+from common.utils import check_port, receive_message, send_message, print_message
+from common.variables import DEFAULT_PORT, DEFAULT_API_ADDRESS
 
 
 def gen_presence_message(account):
@@ -32,10 +31,7 @@ def check_response(message, expected_status):
 
 
 def main():
-
-    if len(argv) < 2:
-        raise AttributeError('нужно указать ip-адрес сервера')
-    addr = argv[1]
+    addr = argv[1] if len(argv) > 2 else DEFAULT_API_ADDRESS
     port = check_port(argv[2]) if len(argv) > 2 else DEFAULT_PORT
 
     socket_client = socket(family=AF_INET, type=SOCK_STREAM)

@@ -8,8 +8,8 @@
 from socket import socket, AF_INET, SOCK_STREAM
 from sys import argv
 
-from lesson3.homework.app.utils import check_port, receive_message, send_message, print_message
-from lesson3.homework.app.variables import DEFAULT_API_ADDRESS, DEFAULT_PORT
+from common.utils import check_port, receive_message, send_message, print_message
+from common.variables import DEFAULT_API_ADDRESS, DEFAULT_PORT
 
 
 def gen_response():
