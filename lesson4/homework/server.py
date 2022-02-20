@@ -12,7 +12,7 @@ from common.utils import check_port, receive_message, send_message, print_messag
 from common.variables import DEFAULT_API_ADDRESS, DEFAULT_PORT
 
 
-def gen_response():
+def gen_response(message):
     return {
         "response": 200,
         "alert": ""
@@ -40,7 +40,7 @@ def main():
     socket_client, address_client = socket_server.accept()
     message = receive_message(socket_client)
     print_message(message)
-    send_message(socket_client, gen_response())
+    send_message(socket_client, gen_response(message))
 
 
 if __name__ == '__main__':
