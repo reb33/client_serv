@@ -41,6 +41,8 @@ def main():
     message = receive_message(socket_client)
     print_message(message)
     send_message(socket_client, gen_response(message))
+    socket_server.close()
+    socket_client.close()
 
 
 if __name__ == '__main__':

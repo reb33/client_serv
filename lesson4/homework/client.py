@@ -40,6 +40,7 @@ def main():
     message = receive_message(socket_client)
     print_message(message)
     check_response(message, 200)
+    socket_client.close()
 
 
 if __name__ == '__main__':
