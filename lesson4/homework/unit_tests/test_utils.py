@@ -7,8 +7,7 @@ from unittest import TestCase
 from unittest.mock import Mock
 
 sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..')))
-sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..', '..', '..')))
-from lesson4.homework.common.utils import send_message, receive_message, check_port, print_message
+from common.utils import send_message, receive_message, check_port, print_message
 
 
 class TestUtils(TestCase):

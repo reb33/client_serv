@@ -3,8 +3,7 @@ import sys
 from unittest import TestCase
 
 sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..')))
-sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..', '..', '..')))
-from lesson4.homework.client import gen_presence_message,check_response
+from client import gen_presence_message,check_response
 
 
 class TestClient(TestCase):

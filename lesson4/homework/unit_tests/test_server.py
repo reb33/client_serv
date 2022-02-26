@@ -3,8 +3,7 @@ import sys
 from unittest import TestCase
 
 sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..')))
-sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..', '..', '..')))
-from lesson4.homework.server import gen_response
+from server import gen_response
 
 
 class TestServer(TestCase):
