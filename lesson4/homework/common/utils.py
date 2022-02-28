@@ -3,6 +3,8 @@ from socket import socket
 
 
 def send_message(s: socket, message: dict):
+    if not isinstance(message, dict):
+        raise ValueError('message must be dict')
     message_str = json.dumps(message)
     return s.send(message_str.encode('utf-8'))
 
