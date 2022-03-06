@@ -1,7 +1,10 @@
 import json
 from socket import socket
+import sys
+import os
 
-from lesson5.homework.common.errors import IncorrectPort
+sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..')))
+from common.errors import IncorrectPort
 
 
 def send_message(s: socket, message: dict):
