@@ -6,13 +6,13 @@ pyuic5 test.ui -o test.py
 """
 
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, qApp
+from PyQt6.QtWidgets import QApplication, QWidget
 import test
 
 app = QApplication(sys.argv)
 window_obj = QWidget()
 ui = test.Ui_Form()
 ui.setupUi(window_obj)
-ui.btnQuit.clicked.connect(qApp.quit)
+ui.btnQuit.clicked.connect(QApplication.quit)
 window_obj.show()
-sys.exit(app.exec_())
+sys.exit(app.exec())

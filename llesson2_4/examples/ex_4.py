@@ -1,8 +1,8 @@
 """Простейшее главное окно с разметкой и запуском"""
 
 import sys
-from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication
-from PyQt5.QtGui import QIcon
+from PyQt6.QtWidgets import QMainWindow, QApplication
+from PyQt6.QtGui import QIcon, QAction
 
 
 class Example(QMainWindow):
@@ -14,7 +14,7 @@ class Example(QMainWindow):
         # Действие (Action) будет совершаться при нажатии на кнопку
         exitAction = QAction(QIcon('exit.png'), 'Exit', self)
         exitAction.setShortcut('Ctrl+Q')
-        exitAction.triggered.connect(qApp.quit)
+        exitAction.triggered.connect(QApplication.quit)
 
         # Создание кнопки на панели инструментов
         self.toolbar = self.addToolBar('Exit')
@@ -29,4 +29,4 @@ class Example(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Example()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

@@ -1,8 +1,8 @@
 """Подключаем файл с разметкой интерфейса, созданного через qtdesigner"""
 
 import sys
-from PyQt5.QtWidgets import QWidget, QApplication, qApp
-from PyQt5 import uic
+from PyQt6.QtWidgets import QWidget, QApplication
+from PyQt6 import uic
 
 
 class MyWindow(QWidget):
@@ -11,7 +11,7 @@ class MyWindow(QWidget):
         # Использование функции loadUi()
         uic.loadUi('test.ui', self)
         # Обработка события нажатия кнопки
-        self.btnQuit.clicked.connect(qApp.quit)
+        self.btnQuit.clicked.connect(QApplication.quit)
 
 
 if __name__ == '__main__':
@@ -32,4 +32,4 @@ if __name__ == '__main__':
     будет уничтожено. Метод sys.exit() гарантирует чистый выход. 
     Окружение будет проинформировано о том, как приложение завершилось.
     """
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

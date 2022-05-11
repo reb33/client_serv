@@ -3,7 +3,7 @@
 import sys
 # QtWidgets — содержит классы для классических приложений
 # на основе виджетов, модуль выделен из QtGui в Qt 5
-from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt6.QtWidgets import QApplication, QWidget
 
 if __name__ == '__main__':
     """
@@ -25,4 +25,4 @@ if __name__ == '__main__':
     # Отобразить окно
     w.show()
     # Запуск приложения
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

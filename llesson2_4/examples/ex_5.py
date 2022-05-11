@@ -1,7 +1,7 @@
 """Обработчики событий, связанных с элементами интерфейса"""
 
 import sys
-from PyQt5 import QtWidgets
+from PyQt6 import QtWidgets
 
 
 def on_clicked():
@@ -41,4 +41,4 @@ button.clicked.connect(MyClass(10))
 button.clicked.connect(lambda: MyClass(5)())
 
 button.show()
-sys.exit(app.exec_())
+sys.exit(app.exec())
