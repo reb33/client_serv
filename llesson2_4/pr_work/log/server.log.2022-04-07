@@ -1,0 +1,200 @@
+2022-04-06 19:59:41,132 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-06 19:59:41,133 INFO server_oop Запущен сервер, порт для подключений: 7000, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-06 20:02:19,884 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-06 20:02:19,884 INFO server_oop Запущен сервер, порт для подключений: 7000, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-06 20:02:38,263 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-06 20:02:38,263 INFO server_oop Запущен сервер, порт для подключений: 7000, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-06 20:04:17,974 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-06 20:04:17,975 INFO server_oop Запущен сервер, порт для подключений: 7000, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-06 20:04:28,248 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-06 20:04:28,249 INFO server_oop Запущен сервер, порт для подключений: 7000, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-06 20:04:33,795 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-06 20:04:33,795 INFO server_oop Запущен сервер, порт для подключений: 7001, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-06 20:06:50,824 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 63846) 
+2022-04-06 20:06:50,835 INFO log_utils функция create_presence(clint1) вызвана из функции main  
+2022-04-06 20:06:50,836 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63846), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649264810.835781, 'user': {'account_name': 'clint1'}}) вызвана из функции main  
+2022-04-06 20:06:51,326 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649264810.835781, 'user': {'account_name': 'clint1'}} 
+2022-04-06 20:06:51,327 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 63846)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-06 20:06:51,327 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-06 20:06:51,828 INFO server_oop Клиент ('127.0.0.1', 63846) отключился от сервера. 
+2022-04-06 20:08:05,437 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 63925) 
+2022-04-06 20:08:05,454 INFO log_utils функция create_presence(clint1) вызвана из функции main  
+2022-04-06 20:08:05,455 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63925), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649264885.454634, 'user': {'account_name': 'clint1'}}) вызвана из функции main  
+2022-04-06 20:08:05,940 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649264885.454634, 'user': {'account_name': 'clint1'}} 
+2022-04-06 20:08:05,941 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 63925)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции process_client_message  
+2022-04-06 20:08:05,942 INFO log_utils функция process_response_ans({'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции main  
+2022-04-06 20:08:15,614 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 63938) 
+2022-04-06 20:08:15,630 INFO log_utils функция create_presence(clint1) вызвана из функции main  
+2022-04-06 20:08:15,631 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63938), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649264895.630661, 'user': {'account_name': 'clint1'}}) вызвана из функции main  
+2022-04-06 20:08:16,115 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649264895.630661, 'user': {'account_name': 'clint1'}} 
+2022-04-06 20:08:16,115 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 63938)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции process_client_message  
+2022-04-06 20:08:16,116 INFO log_utils функция process_response_ans({'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции main  
+2022-04-06 20:11:31,258 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 64162) 
+2022-04-06 20:11:31,271 INFO log_utils функция create_presence(cli1) вызвана из функции main  
+2022-04-06 20:11:31,271 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64162), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649265091.271589, 'user': {'account_name': 'cli1'}}) вызвана из функции main  
+2022-04-06 20:11:31,761 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649265091.271589, 'user': {'account_name': 'cli1'}} 
+2022-04-06 20:11:31,762 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 64162)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-06 20:11:31,764 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-06 20:12:04,412 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 64196) 
+2022-04-06 20:12:04,419 INFO log_utils функция create_presence(cli2) вызвана из функции main  
+2022-04-06 20:12:04,419 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64196), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649265124.419551, 'user': {'account_name': 'cli2'}}) вызвана из функции main  
+2022-04-06 20:12:04,914 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649265124.419551, 'user': {'account_name': 'cli2'}} 
+2022-04-06 20:12:04,915 INFO log_utils функция send_message(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 64196)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-06 20:12:04,916 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-06 20:12:17,005 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64196), raddr=('127.0.0.1', 7001)>, {'action': 'message', 'from': 'cli2', 'to': 'cli1', 'time': 1649265137.00309, 'mess_text': 'HI MAN!'}) вызвана из функции sender_message  
+2022-04-06 20:12:17,442 DEBUG server_oop Разбор сообщения от клиента : {'action': 'message', 'from': 'cli2', 'to': 'cli1', 'time': 1649265137.00309, 'mess_text': 'HI MAN!'} 
+2022-04-06 20:12:17,444 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 64162)>, {'action': 'message', 'from': 'cli2', 'to': 'cli1', 'time': 1649265137.00309, 'mess_text': 'HI MAN!'}) вызвана из функции process_message  
+2022-04-06 20:12:17,444 INFO server_oop Отправлено сообщение пользователю cli1 от пользователя cli2. 
+2022-04-06 20:12:47,433 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64162), raddr=('127.0.0.1', 7001)>, {'action': 'message', 'from': 'cli1', 'to': '', 'time': 1649265167.431419, 'mess_text': ''}) вызвана из функции sender_message  
+2022-04-06 20:12:47,503 DEBUG server_oop Разбор сообщения от клиента : {'action': 'message', 'from': 'cli1', 'to': '', 'time': 1649265167.431419, 'mess_text': ''} 
+2022-04-06 20:12:47,503 ERROR server_oop Пользователь  не зарегистрирован на сервере, отправка сообщения невозможна. 
+2022-04-06 20:13:15,596 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64162), raddr=('127.0.0.1', 7001)>, {'action': 'message', 'from': 'cli1', 'to': 'cli2', 'time': 1649265195.5951371, 'mess_text': 'where is my car dude!'}) вызвана из функции sender_message  
+2022-04-06 20:13:16,066 DEBUG server_oop Разбор сообщения от клиента : {'action': 'message', 'from': 'cli1', 'to': 'cli2', 'time': 1649265195.5951371, 'mess_text': 'where is my car dude!'} 
+2022-04-06 20:13:16,068 INFO log_utils функция send_message(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 64196)>, {'action': 'message', 'from': 'cli1', 'to': 'cli2', 'time': 1649265195.5951371, 'mess_text': 'where is my car dude!'}) вызвана из функции process_message  
+2022-04-06 20:13:16,068 INFO server_oop Отправлено сообщение пользователю cli2 от пользователя cli1. 
+2022-04-06 23:24:07,259 INFO server_oop Клиент ('127.0.0.1', 64196) отключился от сервера. 
+2022-04-06 23:39:04,321 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 59731) 
+2022-04-06 23:39:04,331 INFO log_utils функция create_presence(cli2) вызвана из функции main  
+2022-04-06 23:39:04,332 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59731), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649277544.331908, 'user': {'account_name': 'cli2'}}) вызвана из функции main  
+2022-04-06 23:39:04,824 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649277544.331908, 'user': {'account_name': 'cli2'}} 
+2022-04-06 23:39:04,835 INFO log_utils функция send_message(<socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 59731)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции process_client_message  
+2022-04-06 23:39:04,836 INFO log_utils функция process_response_ans({'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции main  
+2022-04-06 23:39:17,127 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 59745) 
+2022-04-06 23:39:17,144 INFO log_utils функция create_presence(cli3) вызвана из функции main  
+2022-04-06 23:39:17,145 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59745), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649277557.144897, 'user': {'account_name': 'cli3'}}) вызвана из функции main  
+2022-04-06 23:39:17,631 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649277557.144897, 'user': {'account_name': 'cli3'}} 
+2022-04-06 23:39:17,632 INFO log_utils функция send_message(<socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 59745)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-06 23:39:17,633 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-06 23:39:29,177 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59745), raddr=('127.0.0.1', 7001)>, {'action': 'message', 'from': 'cli3', 'to': 'cli1', 'time': 1649277569.174518, 'mess_text': 'hi poc'}) вызвана из функции sender_message  
+2022-04-06 23:39:29,659 DEBUG server_oop Разбор сообщения от клиента : {'action': 'message', 'from': 'cli3', 'to': 'cli1', 'time': 1649277569.174518, 'mess_text': 'hi poc'} 
+2022-04-06 23:39:29,661 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 64162)>, {'action': 'message', 'from': 'cli3', 'to': 'cli1', 'time': 1649277569.174518, 'mess_text': 'hi poc'}) вызвана из функции process_message  
+2022-04-06 23:39:29,662 INFO server_oop Отправлено сообщение пользователю cli1 от пользователя cli3. 
+2022-04-06 23:39:38,180 INFO server_oop Клиент ('127.0.0.1', 59745) отключился от сервера. 
+2022-04-06 23:41:30,281 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 59895) 
+2022-04-06 23:41:30,294 INFO log_utils функция create_presence(cli3) вызвана из функции main  
+2022-04-06 23:41:30,294 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59895), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649277690.294484, 'user': {'account_name': 'cli3'}}) вызвана из функции main  
+2022-04-06 23:41:30,784 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649277690.294484, 'user': {'account_name': 'cli3'}} 
+2022-04-06 23:41:30,786 INFO log_utils функция send_message(<socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 59895)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции process_client_message  
+2022-04-06 23:41:30,787 INFO log_utils функция process_response_ans({'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции main  
+2022-04-06 23:41:39,861 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 59905) 
+2022-04-06 23:41:39,876 INFO log_utils функция create_presence(cli2) вызвана из функции main  
+2022-04-06 23:41:39,877 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59905), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649277699.8767722, 'user': {'account_name': 'cli2'}}) вызвана из функции main  
+2022-04-06 23:41:40,363 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649277699.8767722, 'user': {'account_name': 'cli2'}} 
+2022-04-06 23:41:40,364 INFO log_utils функция send_message(<socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 59905)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции process_client_message  
+2022-04-06 23:41:40,365 INFO log_utils функция process_response_ans({'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции main  
+2022-04-06 23:46:49,178 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 60244) 
+2022-04-06 23:46:49,192 INFO log_utils функция create_presence(cli4) вызвана из функции main  
+2022-04-06 23:46:49,192 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60244), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649278009.1920938, 'user': {'account_name': 'cli4'}}) вызвана из функции main  
+2022-04-06 23:46:49,681 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649278009.1920938, 'user': {'account_name': 'cli4'}} 
+2022-04-06 23:46:49,683 INFO log_utils функция send_message(<socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 60244)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-06 23:46:49,684 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-06 23:46:52,040 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60244), raddr=('127.0.0.1', 7001)>, {'action': 'exit', 'time': 1649278012.039509, 'account_name': 'cli4'}) вызвана из функции sender_message  
+2022-04-06 23:46:52,189 DEBUG server_oop Разбор сообщения от клиента : {'action': 'exit', 'time': 1649278012.039509, 'account_name': 'cli4'} 
+2022-04-06 23:46:52,190 INFO server_oop Клиент ('127.0.0.1', 60244) отключился от сервера. 
+2022-04-06 23:47:06,601 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 60263) 
+2022-04-06 23:47:06,611 INFO log_utils функция create_presence(cli4) вызвана из функции main  
+2022-04-06 23:47:06,612 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60263), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649278026.6120598, 'user': {'account_name': 'cli4'}}) вызвана из функции main  
+2022-04-06 23:47:07,103 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649278026.6120598, 'user': {'account_name': 'cli4'}} 
+2022-04-06 23:47:07,103 INFO log_utils функция send_message(<socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 60263)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции process_client_message  
+2022-04-06 23:47:07,104 INFO log_utils функция process_response_ans({'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции main  
+2022-04-06 23:50:41,399 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-06 23:50:41,400 INFO server_oop Запущен сервер, порт для подключений: 7001, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-06 23:50:45,897 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-06 23:50:45,897 INFO server_oop Запущен сервер, порт для подключений: 7001, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-06 23:56:42,537 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-06 23:56:42,537 INFO server_oop Запущен сервер, порт для подключений: 7000, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-07 00:02:05,027 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-07 00:02:05,028 INFO server_oop Запущен сервер, порт для подключений: 7001, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-07 00:02:22,921 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 65395) 
+2022-04-07 00:02:22,935 INFO log_utils функция create_presence(cli1) вызвана из функции main  
+2022-04-07 00:02:22,936 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65395), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649278942.935683, 'user': {'account_name': 'cli1'}}) вызвана из функции main  
+2022-04-07 00:02:23,423 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649278942.935683, 'user': {'account_name': 'cli1'}} 
+2022-04-07 00:02:23,424 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 65395)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-07 00:02:23,426 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-07 00:02:25,733 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65395), raddr=('127.0.0.1', 7001)>, {'action': 'exit', 'time': 1649278945.731536, 'account_name': 'cli1'}) вызвана из функции sender_message  
+2022-04-07 00:02:25,931 DEBUG server_oop Разбор сообщения от клиента : {'action': 'exit', 'time': 1649278945.731536, 'account_name': 'cli1'} 
+2022-04-07 00:02:25,931 INFO server_oop Клиент ('127.0.0.1', 65395) отключился от сервера. 
+2022-04-07 00:02:34,036 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 65407) 
+2022-04-07 00:02:34,049 INFO log_utils функция create_presence(cli1) вызвана из функции main  
+2022-04-07 00:02:34,050 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65407), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649278954.049988, 'user': {'account_name': 'cli1'}}) вызвана из функции main  
+2022-04-07 00:02:34,538 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649278954.049988, 'user': {'account_name': 'cli1'}} 
+2022-04-07 00:02:34,539 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 65407)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции process_client_message  
+2022-04-07 00:02:34,540 INFO log_utils функция process_response_ans({'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции main  
+2022-04-07 00:04:00,349 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 65498) 
+2022-04-07 00:04:00,363 INFO log_utils функция create_presence(cli2) вызвана из функции main  
+2022-04-07 00:04:00,363 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65498), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649279040.3631759, 'user': {'account_name': 'cli2'}}) вызвана из функции main  
+2022-04-07 00:04:00,851 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649279040.3631759, 'user': {'account_name': 'cli2'}} 
+2022-04-07 00:04:00,852 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 65498)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-07 00:04:00,853 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-07 00:04:04,501 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65498), raddr=('127.0.0.1', 7001)>, {'action': 'exit', 'time': 1649279044.500304, 'account_name': 'cli2'}) вызвана из функции sender_message  
+2022-04-07 00:04:04,862 DEBUG server_oop Разбор сообщения от клиента : {'action': 'exit', 'time': 1649279044.500304, 'account_name': 'cli2'} 
+2022-04-07 00:04:04,863 INFO server_oop Клиент ('127.0.0.1', 65498) отключился от сервера. 
+2022-04-07 00:04:23,805 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 65523) 
+2022-04-07 00:04:23,822 INFO log_utils функция create_presence(cli2) вызвана из функции main  
+2022-04-07 00:04:23,822 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65523), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649279063.822319, 'user': {'account_name': 'cli2'}}) вызвана из функции main  
+2022-04-07 00:04:24,306 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649279063.822319, 'user': {'account_name': 'cli2'}} 
+2022-04-07 00:04:24,308 INFO log_utils функция send_message(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 65523)>, {'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции process_client_message  
+2022-04-07 00:04:24,308 INFO log_utils функция process_response_ans({'response': 400, 'error': 'Имя пользователя уже занято.'}) вызвана из функции main  
+2022-04-07 00:05:19,565 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-07 00:05:19,565 INFO server_oop Запущен сервер, порт для подключений: 7001, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-07 00:05:28,268 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 49212) 
+2022-04-07 00:05:28,280 INFO log_utils функция create_presence(cli1) вызвана из функции main  
+2022-04-07 00:05:28,281 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49212), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649279128.280799, 'user': {'account_name': 'cli1'}}) вызвана из функции main  
+2022-04-07 00:05:28,770 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649279128.280799, 'user': {'account_name': 'cli1'}} 
+2022-04-07 00:05:28,771 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 49212)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-07 00:05:28,772 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-07 00:05:34,417 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49212), raddr=('127.0.0.1', 7001)>, {'action': 'exit', 'time': 1649279134.415772, 'account_name': 'cli1'}) вызвана из функции sender_message  
+2022-04-07 00:05:34,785 DEBUG server_oop Разбор сообщения от клиента : {'action': 'exit', 'time': 1649279134.415772, 'account_name': 'cli1'} 
+2022-04-07 00:05:34,785 INFO server_oop Клиент ('127.0.0.1', 49212) отключился от сервера. 
+2022-04-07 00:07:13,749 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-07 00:07:13,750 INFO server_oop Запущен сервер, порт для подключений: 7001, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-07 00:07:24,294 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 49337) 
+2022-04-07 00:07:24,309 INFO log_utils функция create_presence(cli1) вызвана из функции main  
+2022-04-07 00:07:24,310 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49337), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649279244.309751, 'user': {'account_name': 'cli1'}}) вызвана из функции main  
+2022-04-07 00:07:24,796 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649279244.309751, 'user': {'account_name': 'cli1'}} 
+2022-04-07 00:07:24,797 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 49337)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-07 00:07:24,798 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-07 00:07:28,055 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49337), raddr=('127.0.0.1', 7001)>, {'action': 'exit', 'time': 1649279248.053956, 'account_name': 'cli1'}) вызвана из функции sender_message  
+2022-04-07 00:07:28,305 DEBUG server_oop Разбор сообщения от клиента : {'action': 'exit', 'time': 1649279248.053956, 'account_name': 'cli1'} 
+2022-04-07 00:07:28,305 INFO server_oop Клиент ('127.0.0.1', 49337) отключился от сервера. 
+2022-04-07 00:09:09,798 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-07 00:09:09,798 INFO server_oop Запущен сервер, порт для подключений: 7001, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-07 00:09:17,337 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 49457) 
+2022-04-07 00:09:17,352 INFO log_utils функция create_presence(cli1) вызвана из функции main  
+2022-04-07 00:09:17,353 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49457), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649279357.35285, 'user': {'account_name': 'cli1'}}) вызвана из функции main  
+2022-04-07 00:09:17,839 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649279357.35285, 'user': {'account_name': 'cli1'}} 
+2022-04-07 00:09:17,840 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 49457)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-07 00:09:17,840 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-07 00:09:21,177 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49457), raddr=('127.0.0.1', 7001)>, {'action': 'exit', 'time': 1649279361.176268, 'account_name': 'cli1'}) вызвана из функции sender_message  
+2022-04-07 00:09:21,348 DEBUG server_oop Разбор сообщения от клиента : {'action': 'exit', 'time': 1649279361.176268, 'account_name': 'cli1'} 
+2022-04-07 00:09:35,821 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 49477) 
+2022-04-07 00:09:35,836 INFO log_utils функция create_presence(cli1) вызвана из функции main  
+2022-04-07 00:09:35,837 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49477), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649279375.837014, 'user': {'account_name': 'cli1'}}) вызвана из функции main  
+2022-04-07 00:09:36,322 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649279375.837014, 'user': {'account_name': 'cli1'}} 
+2022-04-07 00:09:36,323 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 49477)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-07 00:09:36,324 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-07 00:09:39,848 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49477), raddr=('127.0.0.1', 7001)>, {'action': 'exit', 'time': 1649279379.847931, 'account_name': 'cli1'}) вызвана из функции sender_message  
+2022-04-07 00:09:40,332 DEBUG server_oop Разбор сообщения от клиента : {'action': 'exit', 'time': 1649279379.847931, 'account_name': 'cli1'} 
+2022-04-07 22:47:39,799 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-07 22:47:39,800 INFO server_oop Запущен сервер, порт для подключений: 7001, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-07 23:02:16,933 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-07 23:04:34,123 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-07 23:04:53,513 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-07 23:06:00,744 INFO log_utils функция arg_parser() вызвана из функции main  
+2022-04-07 23:06:00,744 INFO server_oop Запущен сервер, порт для подключений: 7001, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2022-04-07 23:06:10,670 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 62334) 
+2022-04-07 23:06:10,682 INFO log_utils функция create_presence(cli1) вызвана из функции main  
+2022-04-07 23:06:10,683 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62334), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649361970.68308, 'user': {'account_name': 'cli1'}}) вызвана из функции main  
+2022-04-07 23:06:11,172 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649361970.68308, 'user': {'account_name': 'cli1'}} 
+2022-04-07 23:06:11,173 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 62334)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-07 23:06:11,174 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-07 23:06:16,709 INFO server_oop Установлено соедение с ПК ('127.0.0.1', 62341) 
+2022-04-07 23:06:16,724 INFO log_utils функция create_presence(cli2) вызвана из функции main  
+2022-04-07 23:06:16,724 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62341), raddr=('127.0.0.1', 7001)>, {'action': 'presence', 'time': 1649361976.724406, 'user': {'account_name': 'cli2'}}) вызвана из функции main  
+2022-04-07 23:06:17,212 DEBUG server_oop Разбор сообщения от клиента : {'action': 'presence', 'time': 1649361976.724406, 'user': {'account_name': 'cli2'}} 
+2022-04-07 23:06:17,213 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 62341)>, {'response': 200}) вызвана из функции process_client_message  
+2022-04-07 23:06:17,213 INFO log_utils функция process_response_ans({'response': 200}) вызвана из функции main  
+2022-04-07 23:06:38,111 INFO log_utils функция send_message(<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62341), raddr=('127.0.0.1', 7001)>, {'action': 'message', 'from': 'cli2', 'to': 'cli1', 'time': 1649361998.109708, 'mess_text': 'hi man!'}) вызвана из функции sender_message  
+2022-04-07 23:06:38,262 DEBUG server_oop Разбор сообщения от клиента : {'action': 'message', 'from': 'cli2', 'to': 'cli1', 'time': 1649361998.109708, 'mess_text': 'hi man!'} 
+2022-04-07 23:06:38,264 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7001), raddr=('127.0.0.1', 62334)>, {'action': 'message', 'from': 'cli2', 'to': 'cli1', 'time': 1649361998.109708, 'mess_text': 'hi man!'}) вызвана из функции process_message  
+2022-04-07 23:06:38,265 INFO server_oop Отправлено сообщение пользователю cli1 от пользователя cli2. 

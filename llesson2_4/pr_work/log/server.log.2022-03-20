@@ -1,0 +1,56 @@
+2022-03-20 16:48:19,282 ERROR server [Errno 48] Address already in use 
+2022-03-20 16:48:26,618 ERROR server [Errno 48] Address already in use 
+2022-03-20 16:49:03,906 ERROR server [Errno 48] Address already in use 
+2022-03-20 16:49:12,592 ERROR server [Errno 48] Address already in use 
+2022-03-20 16:49:14,296 ERROR server [Errno 48] Address already in use 
+2022-03-20 16:49:29,643 ERROR server [Errno 48] Address already in use 
+2022-03-20 16:49:32,185 ERROR server [Errno 48] Address already in use 
+2022-03-20 16:50:28,575 ERROR server [Errno 48] Address already in use 
+2022-03-20 17:00:58,053 DEBUG server подключение от ('127.0.0.1', 52815) 
+2022-03-20 17:02:12,680 INFO server got message {
+    "recr": "client2",
+    "mess": "HI"
+} 
+2022-03-20 17:02:12,690 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 52815)>, {'response': 200, 'alert': ''}) вызвана из функции main  
+2022-03-20 17:02:12,691 DEBUG server подключение от ('127.0.0.1', 52845) 
+2022-03-20 17:02:12,691 INFO server got message {
+    "recr": "client1",
+    "mess": "Hi"
+} 
+2022-03-20 17:02:12,691 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 52845)>, {'response': 200, 'alert': ''}) вызвана из функции main  
+2022-03-20 17:03:42,108 DEBUG server подключение от ('127.0.0.1', 52994) 
+2022-03-20 17:04:18,556 INFO server got message {
+    "recr": "client2",
+    "mess": "HI"
+} 
+2022-03-20 17:04:18,557 INFO log_utils функция send_message(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 52994)>, {'response': 200, 'alert': ''}) вызвана из функции main  
+2022-03-20 17:09:24,315 DEBUG server подключение от ('127.0.0.1', 53356) 
+2022-03-20 17:09:26,352 DEBUG server подключение от ('127.0.0.1', 53361) 
+2022-03-20 17:09:44,044 INFO server got message {
+    "recr": "client2",
+    "mess": "HI"
+} 
+2022-03-20 17:09:44,053 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53356)>, {'recr': 'client2', 'mess': 'HI'}) вызвана из функции write_messages  
+2022-03-20 17:09:44,054 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53361)>, {'recr': 'client2', 'mess': 'HI'}) вызвана из функции write_messages  
+2022-03-20 17:10:04,766 INFO server got message {
+    "recr": "client1",
+    "mess": "HIHIHIHI"
+} 
+2022-03-20 17:10:04,767 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53356)>, {'recr': 'client1', 'mess': 'HIHIHIHI'}) вызвана из функции write_messages  
+2022-03-20 17:10:04,768 INFO log_utils функция send_message(<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53361)>, {'recr': 'client1', 'mess': 'HIHIHIHI'}) вызвана из функции write_messages  
+2022-03-20 17:10:27,091 INFO server <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53361)> отключился 
+2022-03-20 17:10:41,500 DEBUG server подключение от ('127.0.0.1', 53440) 
+2022-03-20 17:11:00,000 INFO server got message {
+    "recr": "client2",
+    "mess": "HJGHFG"
+} 
+2022-03-20 17:11:00,001 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53356)>, {'recr': 'client2', 'mess': 'HJGHFG'}) вызвана из функции write_messages  
+2022-03-20 17:11:00,002 INFO log_utils функция send_message(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53440)>, {'recr': 'client2', 'mess': 'HJGHFG'}) вызвана из функции write_messages  
+2022-03-20 17:11:12,871 INFO server got message {
+    "recr": "client1",
+    "mess": "XCZVCZX"
+} 
+2022-03-20 17:11:12,873 INFO log_utils функция send_message(<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53356)>, {'recr': 'client1', 'mess': 'XCZVCZX'}) вызвана из функции write_messages  
+2022-03-20 17:11:12,874 INFO log_utils функция send_message(<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53440)>, {'recr': 'client1', 'mess': 'XCZVCZX'}) вызвана из функции write_messages  
+2022-03-20 17:11:24,738 INFO server <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53356)> отключился 
+2022-03-20 17:11:46,049 INFO server <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7778), raddr=('127.0.0.1', 53440)> отключился 
