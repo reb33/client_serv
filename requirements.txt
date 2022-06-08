@@ -1,6 +1,9 @@
 appscript==1.2.0
 chardet==4.0.0
 lxml==4.8.0
+PyQt6==6.3.0
+PyQt6-Qt6==6.3.0
+PyQt6-sip==13.3.1
 PyYAML==6.0
 SQLAlchemy==1.4.35
 tabulate==0.8.9
